@@ -1,0 +1,45 @@
+@import '../../styles/app';
+
+.notifications {
+  @include media-breakpoint-up(md) {
+    width: 333px;
+  }
+
+  &Account {
+    @include media-breakpoint-up(md) {
+      width: 250px;
+      height: 120px;
+      border: none;
+    }
+    background-color: #232a52;
+    color:#8289bc;
+    box-shadow:1px 1px 28px 20px rgba(18, 19, 29, 0.3);
+  }
+
+  height: 100%;
+  border: none;
+  background-color: #232a52;
+  color:#8289bc;
+  box-shadow:1px 1px 28px 20px rgba(18, 19, 29, 0.3);
+ 
+}
+
+.cardHeader {
+  border-radius: 0;
+  color:#8289bc;
+}
+
+.cardFooter {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  color:#8289bc;
+}
+
+.btnNotificationsReload {
+  color: $navbar-link-color;
+  outline: none;
+
+  i::before {
+    top: 2px;
+  }
+}

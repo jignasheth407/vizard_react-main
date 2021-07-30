@@ -1,0 +1,106 @@
+.form-control:focus {
+    color: #fff;
+    background-color: rgba(12, 17, 46, 0.87);
+    outline: 0;
+    box-shadow: none;
+  }
+  input:not(:placeholder-shown) {
+    background-color:  rgba(12, 17, 46, 0.87)!important;
+  }
+  
+  input:not(:placeholder-shown) {
+    background-color:  rgba(12, 17, 46, 0.87)!important;
+    border: 1px solid #0da7a9;
+    color: #fff;
+  
+  }
+  .login-form .form-group .input_error{
+    color: #f31ea1;
+    font-size: 12px;
+    margin-top: 4px;
+  }
+
+  .login-form .form-group .input_error_server{
+    color: #f31ea1;
+    font-size: 12px;
+    margin-top: 20px;
+    text-align: center;
+
+  }
+
+  
+  .form-group label
+  {
+    color: #8289bc;
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .form-group input
+  {
+    height: 48px;
+    border: 1px solid #0da7a9;
+    border-radius: 4px;
+  }
+  
+  .form-group button
+  {
+    /* width: 229px; */
+    height: 50px;
+    background-color:#0c112e;
+    border: 1px solid #303866;
+    color: #8289bc;
+    font-size: 12px;
+    margin-top:20px;
+  }
+  .form-control:focus {
+    color: #495057;
+    background-color: rgba(12, 17, 46, 0.87);
+    outline: 0;
+    box-shadow: none;
+  }
+  input:not(:placeholder-shown) {
+    background-color:  rgba(12, 17, 46, 0.87)!important;
+  }
+  
+  input:not(:placeholder-shown) {
+    background-color:  rgba(12, 17, 46, 0.87)!important;
+    border: 1px solid #0da7a9;
+    color: #fff;
+  
+  }
+  /* input:invalid {
+    border-color: #f31ea1;
+  } */
+  /* input:invalid + span::before {
+    content: '✖';
+    color: red;
+  } */
+  /* input:required:invalid {
+    border-color: #f31ea1;
+  } */
+  
+  input:placeholder-shown {
+    background-color:  rgba(12, 17, 46, 0.87)!important;
+    border: 1px solid #8289bc;
+    color: #fff;
+  }
+  input[type=text]:focus, input[type=password]:focus {
+    border: 1px solid #0da7a9;
+    color: #fff;
+  }
+  .form-check-label
+  {
+    font-size:14px;
+  }
+  .login-form a
+  {
+    text-decoration: none;
+    color: #f31ea1;
+    font-size: 12px;
+    line-height: 54px;
+  }
+
+  .form-group label {
+    font-size: 14px;
+    color: #8289bc;
+}

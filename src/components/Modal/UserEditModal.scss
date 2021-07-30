@@ -1,0 +1,83 @@
+@import "../../../src/styles/app";
+
+.custom_select{
+   background-color: #232A52;
+   height: 40px;
+   color: #757575;
+   width: 206px;
+   border: transparent;
+   border-radius: 4px;
+}
+fieldset {
+   min-width: 0;
+   padding: 0;
+   margin: 0;
+   border-color: #262A52;
+}
+
+.form-group input {
+   height: 40px;
+   border: 1px solid #0da7a9;
+   border-radius: 4px;
+}
+legend {
+   display: block;
+   width: 100%;
+   padding: 10px;
+   margin-bottom: 1rem;
+   line-height: inherit;
+   color: #798892;
+   border: 0;
+   font-size: 15px;
+   font-weight: 400;
+}
+.font-small{
+   font-size: 14px;
+}
+.ckbox{
+   border: 1px solid black;
+}
+input[type="checkbox"] {
+   background:red;
+   border: #7f83a2 1px solid;
+}
+
+.modal-header {
+   display: flex;
+   align-items: flex-start;
+   justify-content: space-between;
+   padding: 1rem 1rem;
+   border-bottom: none; 
+   /* border-top-left-radius: 0.35rem; */
+   /* border-top-right-radius: 0.35rem; */
+}
+.custom-image{
+   background-color: #232A52;
+   height: 30px;
+   color: #757575;
+   width: 76%;
+   border: 1px solid #8289bc;
+   margin-top: 90px;
+   padding: 0px;
+   margin-left: 10px;
+}
+fieldset{border: 2px solid #262A52;padding:10px;border-radius: 5px;}
+.usr_edit{
+   margin-left: 15px;
+   margin-top: 8px;
+   
+}
+.modal-body{
+   padding:10px 0px 10px 45px;
+}
+.user_edit_button{
+   height: 35px;
+   width: 35px;
+   border-radius: 3px;
+   border: 1px solid #3b436d;
+   background: #3b436d;
+   padding-top: 3px;
+   margin-top: 10px;
+}
+.user-margin{margin-bottom: 0px;}
+.title_lable{padding-right: 45px;}

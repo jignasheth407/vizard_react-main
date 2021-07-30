@@ -1,0 +1,397 @@
+@import '../../styles/app';
+
+.root {
+  .dashboardBlock {
+    @media (min-width: 1170px) and (max-width: 1280px) {
+      display: none;
+    }
+  }
+  .dailyLineChart {
+    
+    @include media-breakpoint-down(md) {
+      margin-top: 0;
+    }
+  }
+  .pieElements {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &Danger {
+      border-top: 3px solid theme-color("danger")
+    }
+    &Warning {
+      border-top: 3px solid theme-color("warning")
+    }
+    &Black {
+      border-top: 3px solid #323232
+    }
+    p {
+      color: rgba(#323232, .6);
+      white-space: nowrap;
+    }
+  }
+  :global {
+    .post-comments footer {
+      margin: 0 (-$widget-padding-horizontal) (-$widget-padding-vertical);
+      padding: $widget-padding-vertical $widget-padding-horizontal;
+    }
+
+    .stat-item .name {
+      margin-top: 10px;
+    }
+  }
+  h5 {
+    color: rgba(#323232, .6)
+  }
+  .dashboardImg {
+    position: absolute;
+    right: 0;
+    bottom: -4px;
+    width: 40%;
+    @include media-breakpoint-down(md) {
+      width: 100%;
+      position: static;
+      margin-bottom: -28px;
+    }
+    }
+  .row {
+    align-items: center;
+    @include media-breakpoint-down(md) {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+}
+
+.table {
+  :global(.table.table-sm) {
+    td {
+      font-size: 1rem;
+      vertical-align: middle;
+    }
+  }
+}
+
+
+//English language Style
+
+[dir='ltr']{
+// heading board
+.headingboard{
+  width: 100%;
+  height: 95px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+
+.pageName{
+width:90%;
+float: left;
+}
+
+}
+
+
+//arabic language
+[dir='rtl']{
+  // heading board
+  .headingboard{
+    width: 100%;
+    height: 95px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+  
+  
+  .pageName{
+  width:90%;
+  float: right;
+  text-align: right;
+  }
+  
+  }
+
+.addWidget{
+  float: right;
+  text-align: center;
+  background-color:#0da7a9 ;
+  border-radius: 4px;
+  min-height: 37px;
+  border:none;
+  color:#fff;
+}
+
+.subheading{
+  color:#8289bc;
+  font-size: 14px;
+}
+
+.gridgutter {
+  margin-right: 0px;
+  margin-left: 0px;
+
+  & > [class^="col-"],
+  & > [class*=" col-"] {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+}
+
+.dashboardFrame{
+  padding: 0px 20px 20px 20px;
+}
+
+.nogap{
+  padding-left:10px;
+  padding-right: 10px;
+}
+@media screen and (min-width: 1199.98px) and (max-width: 1400.98px) { 
+  .infoWidgetGreen{
+    height:55px;
+    width:55px;
+    background-color: #0da7a9;
+    border-radius: 50%;
+    margin-top: 30px;
+      margin-bottom: 20px;
+  }
+  .infoWidgetPink{
+    height:55px;
+    width:55px;
+    background-color: #f31ea1;
+    border-radius: 50%;
+    margin-top: 30px;
+      margin-bottom: 20px;
+  }
+
+  .infoWidgetPurple{
+    height:55px;
+    width:55px;
+    background-color: #aa4fff;
+    border-radius: 50%;
+    margin-top: 30px;
+      margin-bottom: 20px;
+  }
+
+  .infoWidgetOrange{
+    height:50px;
+    width:50px;
+    background-color: #ff7134;
+    border-radius: 100%;
+    margin-top: 30px;
+      margin-bottom: 20px;
+  }
+  .peopleIcon{
+    height: 50%;
+    width: 55%;
+    margin-left: 25%;
+    margin-top: 25%;
+  }
+  
+  .maskIcon{
+    height: 24px;
+    width: 40px;
+    margin-left: 13px;
+    margin-top: 20px;
+  }
+  
+  .fireIcon{
+    height: 32px;
+    width: 28px;
+    margin-left: 19px;
+    margin-top: 17px;
+  }
+  
+  .runIcon{
+    height: 30px;
+    width: 28px;
+    margin-left: 20px;
+    margin-top: 15px;
+  }
+}
+.infoWidgetGreen{
+  height:65px;
+  width:65px;
+  background-color: #0da7a9;
+  border-radius: 50%;
+  margin-top: 40px;
+    margin-bottom: 20px;
+}
+.infoWidgetPink{
+  height:65px;
+  width:65px;
+  background-color: #f31ea1;
+  border-radius: 100%;
+  margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.infoWidgetPurple{
+  height:65px;
+  width:65px;
+  background-color: #aa4fff;
+  border-radius: 100%;
+  margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.infoWidgetOrange{
+  height:65px;
+  width:65px;
+  background-color: #ff7134;
+  border-radius: 100%;
+  margin-top: 40px;
+    margin-bottom: 20px;
+}
+.peopleIcon{
+  height: 30px;
+  width: 36px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.maskIcon{
+  height: 24px;
+  width: 40px;
+  margin-left: 13px;
+  margin-top: 20px;
+}
+
+.fireIcon{
+  height: 32px;
+  width: 28px;
+  margin-left: 19px;
+  margin-top: 17px;
+}
+
+.runIcon{
+  height: 30px;
+  width: 28px;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+.subheadingWidget{
+  font-weight: 100;
+   font-size:15px;
+  color:#acb0cd;
+}
+
+.subheadingWidgetGraph{
+  font-weight: 100;
+   font-size:12px;
+  color:#acb0cd;
+}
+//english langauge
+[dir='ltr']{
+.graphWidgetInfo{
+  margin-top:20px;
+  margin-left:15px;
+}
+}
+
+//arabic langauge
+[dir='rtl']{
+  .graphWidgetInfo{
+    margin-top:20px;
+    margin-right:15px;
+  }
+  }
+
+//arabic
+  [dir='rtl']{
+//Pie chart heading
+.graphHeading{
+  right:0;
+  position: absolute;
+  padding-right: 20px;
+  padding-top: 18px;
+  text-align: right;
+}
+}
+
+//arabic
+[dir='ltr']{
+  //Pie chart heading
+  .graphHeading{
+    left:0;
+    position: absolute;
+    padding-left: 20px;
+    padding-top: 18px;
+  }
+  }
+
+//sub heading pie chart
+.subheadingPieChart{
+  padding-top: 0px;
+  font-size: 10px;
+}
+
+.pieHeading{
+  margin-bottom: 5px;
+}
+
+.donutChart{
+  margin-top: 60px;
+}
+//english
+[dir='ltr']{
+.expandIcon{
+  right: 0;
+    position: absolute;
+    margin-top: 22px;
+    margin-right: 70px;
+  
+}
+.downloadIcon{
+  right: 0;
+  position: absolute;
+  margin-top: -12px;
+  color:#0da7a9;
+  font-size: 14px;
+  font-weight: 500;
+  margin-right: 20px;
+
+}
+.downloadText{
+right: 0;
+position: absolute;
+margin-top: -10px;
+color:#0da7a9;
+font-size: 14px;
+font-weight: 500;
+margin-right: 60px;
+
+}
+}
+
+//english
+[dir='rtl']{
+  .expandIcon{
+    left: 0;
+      position: absolute;
+      margin-top: 22px;
+      margin-left: 70px;
+    
+  }
+  .downloadIcon{
+    left: 0;
+    position: absolute;
+    margin-top: -12px;
+    color:#0da7a9;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 20px;
+  
+  }
+  .downloadText{
+  left: 0;
+  position: absolute;
+  margin-top: -10px;
+  color:#0da7a9;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 60px;
+  
+  }
+  }
+

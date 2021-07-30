@@ -1,0 +1,88 @@
+@import "../../../styles/app";
+
+.model_main{
+    background-color: #000;
+}
+
+.modal-header{
+    color: #000;
+    font-weight: bold;
+}
+.page-item a:hover{
+    background-color: aqua;
+}
+.page-link{
+    color: #fff;
+    background-color: transparent;
+}
+.card-body{
+    flex: 1 1 auto;
+    padding: 0.25rem;
+}
+.card_margin{
+    margin-bottom: 15px;
+}
+.card_title{
+    font-size: 14px;
+    padding-left: 40px;
+    padding-top: 10px;
+    margin-bottom: 2px !important;
+}
+.card_subtitle{
+    font-size: 10px;
+    font-weight: normal;
+    padding-left: 40px;
+}
+.Header_avatar__usm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    height: 35px !important;
+    width: 35px !important;
+    background: #3b436d;
+    font-weight: 600;
+    font-size: 16px !important;
+    position: absolute;
+    left: 5px;
+    position: absolute;
+    border: none !important;
+    margin-right: 10px;
+}
+img {
+    height: 16px;
+    width: 16px;
+}
+
+.Header_avatar__Cardusm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    height: 35px !important;
+    width: 35px !important;
+    background: #3b436d;
+    font-weight: 600;
+    font-size: 16px !important;
+    position: absolute;
+    left: 5px;
+    position: absolute;
+    border: 1px solid transparent !important;
+    border-radius: 50% !important;
+    margin-right: 10px;
+    margin-top: 15px;
+    margin-left: 7px;
+}
+
+.col_padding{
+    padding-right: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+.col_padding_center{
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+.col_padding_right{
+    padding-left: 10px !important;
+}
